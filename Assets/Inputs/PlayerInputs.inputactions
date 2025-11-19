@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "b7236cc9-448d-4f7c-a74f-de4cad4325ba",
+            "actions": [
+                {
+                    "name": "MoveCameraPhone",
+                    "type": "Button",
+                    "id": "c4174468-75d1-4f94-a62f-df2d58752f29",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveCameraPc",
+                    "type": "Button",
+                    "id": "5115ae80-a9ab-408e-84ec-85e435ffe8b1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e1cf91ce-0212-4475-962d-1ab80d7d3911",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCameraPhone",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fdb30016-3b97-499d-b5a7-7b3e40a7aeed",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCameraPc",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
